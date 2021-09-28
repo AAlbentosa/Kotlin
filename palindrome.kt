@@ -1,7 +1,7 @@
-fun esPalindromo(palabra: String):Boolean {
+fun isPalindrome(word: String):Boolean {
 
-        for (y in 0..palabra.length-1) {
-             if(palabra[y]!=palabra[(palabra.length-1)-y]){
+        for (y in 0..word.length-1) {
+             if(word[y]!=word[(word.length-1)-y]){
                 return false
              }
          }
